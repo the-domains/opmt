@@ -1,14 +1,26 @@
 layout_spectrum: 0.4510638
-typography_spectrum: 0.1914894
+name: OPMT
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
 color:
-  lightness: 0.7152694
   brandStrength: 0.8565074
+  lightness: 0.9808511
   saturation: 0.9723814
   rhythmicContrast: 0.4465774
   brandColors:
-    - '#71A7FE'
-    - '#399AE7'
-    - '#3B407C'
-    - '#547AB1'
-    - '#CEAFC0'
-name: OPMT
+    - '#D6C6A3'
+    - '#16171F'
+    - '#C53980'
+    - '#77E1B3'
+    - '#4B535C'
+typography_spectrum: 0.1914894
